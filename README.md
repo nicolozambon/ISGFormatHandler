@@ -57,7 +57,7 @@ The conversion can be performed to theese formats:
 ## Usage examples
 
 ### Plot and convert a model
-```
+```python
 import ISGFormatHandler as handler
 
 isg_file_path = 'example/EGG97_20170702.isg'
@@ -74,7 +74,7 @@ model.convertTo(output_path, 'isg1.01')
 ```
 
 ### Create a sub-model from bounds
-```
+```python
 import ISGFormatHandler as handler
 
 isg_file_path = 'example/EGG97_20170702.isg'
@@ -99,7 +99,7 @@ model.createSubmodel(
 ```
 
 ### Create a sub-model from shapefile
-```
+```python
 import ISGFormatHandler as handler
 
 isg_file_path = 'example/EGG97_20170702.isg'
@@ -120,7 +120,7 @@ model.createSubmodel(
 ```
 
 ### Create and interpolate a sub-model from shapefile
-```
+```python
 import ISGFormatHandler as handler
 
 isg_file_path = 'example/EGG97_20170702.isg'
