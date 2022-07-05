@@ -92,7 +92,7 @@ model.retrieveByPath(isg_file_path)
 model.createSubmodel(
     directory=output_path,
     output_format='isg1.01',
-    bounds=bounds
+    bounds=bounds,
     interpolation=None,
     optimize_dimensions=True
 )
@@ -113,7 +113,7 @@ model.createSubmodel(
     directory=output_path,
     output_format='isg1.01',
     shapefile_path=shp_file_path,
-    convert_shapefile_to_bounds=False
+    convert_shapefile_to_bounds=False,
     interpolation=None,
     optimize_dimensions=True
 )
@@ -141,7 +141,7 @@ model.createSubmodel(
     directory=output_path,
     output_format='isg1.01',
     shapefile_path=shp_file_path,
-    convert_shapefile_to_bounds=False
+    convert_shapefile_to_bounds=False,
     interpolation=interpolation,
     optimize_dimensions=True
 )
